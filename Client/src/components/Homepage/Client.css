@@ -1,0 +1,33 @@
+
+  /* Ensure the Swiper container has enough padding at the bottom for the pagination */
+  .mySwiper {
+    padding-bottom: 30px; 
+  }
+
+  /* Custom position for pagination */
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px; 
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+
+  /* Customize the bullets */
+  .swiper-pagination-bullet {
+    background-color: white; /* Change the color of the bullets */
+    opacity: 0.7;
+    padding: 5px;
+    transition: opacity 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1; /* Highlight the active bullet */
+    background-color: #FFD700; /* Gold color for the active bullet */
+  }
+
+
+  .bg{
+    background-image: url('../../assets/bg.jpg');
+  }

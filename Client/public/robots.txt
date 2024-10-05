@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /client2
+
+# Allow search engines to crawl the main event pages
+Allow: /services/
+Allow: /portfolio/
+Allow: /contactus/
+
+
+# Sitemap location 
+Sitemap: https://www.onetouchagency.com/sitemap.xml
